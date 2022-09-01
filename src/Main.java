@@ -23,6 +23,61 @@ public class Main {
         float box6 = box1 + box4;
         System.out.println(box6 + " фигни какой нибудь");
 
+        float zadacha2 = 78.2f;
+        float boxer1 = 82.7f;
+        System.out.println( zadacha2 + boxer1 + " общий вес боксеров в кг");
+
+        var raznuy = (boxer1) % zadacha2 ;
+        System.out.println( raznuy + "  разница в весе у боксеров в кг");
+        System.out.println(boxer1 - zadacha2  + " разница в весе у боксеров в кг ");
+
+        byte banan = 80;
+        byte moloko = 105;
+        byte moroz = 100;
+        byte yuzha = 70;
+         var otrava = banan*5+ moloko*2+moroz*2+yuzha*4;
+        System.out.println(otrava+" грамм"+"  или "+ otrava/1000+ " килограмм");
+        float otrava1=otrava/1000f;
+        System.out.println(otrava1+" в килограммах");
+
+        byte dohlik1=7;
+        float dohlik2=0.250f;
+        float dohlik3=0.500f;
+        System.out.println(dohlik1/dohlik2+" дней -если много жрать");
+        System.out.println(dohlik1/dohlik3+" дней - если мало жрать");
+        var dohlik4=(dohlik2+dohlik3)/2;
+        System.out.println(dohlik1/dohlik4+" дней -если нормально жрать");
+
+
+        int masha=67_760*12;
+        int den=83_690*12;
+        int kris=76_230*12;
+        int m=masha/10;
+        int de =den/10;
+        int k=kris/10;
+        int m1=masha+m;
+        int d1=den+de;
+        int k1=kris+k;
+        System.out.println("маша теперь получает "+ m1+" рублей в год.Годовой доход вырос на "+m);
+        System.out.println("ден теперь получает "+d1+" рублей в год.Годовой доход вырос на "+ de);
+        System.out.println("крис теперь получает "+k1 +" рублей в год.Годовой доход вырос на "+ k);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
